@@ -1,0 +1,185 @@
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../2279655-device-36/fonts/rubik/rubik-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../2279655-device-36/fonts/rubik/rubik-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../2279655-device-36/fonts/raleway/raleway-800.woff2") format("woff2");
+  font-display: swap;
+}
+
+html {
+  height: 100%;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #000000;
+  background-color: #FFFFFF;
+  margin: 0;
+  height: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1160px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+/** header **/
+
+/** ------search------**/
+header {
+  min-height: 206px;
+  width: 1160px;
+  padding-top: 20px;
+}
+
+.header-logo {
+  display: block;
+  width: 145px;
+  height: 36px;
+  margin-left: 60px;
+}
+
+.search-custom-extra-menu {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.search {
+  height: 40px;
+  width: 580px;
+}
+
+.search-menu {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 58px;
+}
+
+.search-input {
+  width: 355px;
+  height: 36px;
+  display: block;
+  margin: 0;
+  padding: 0;
+  border-radius: 20px 0 0 20px;
+  border: solid 2px;
+  border-color: #000000;
+  border-right: 0;
+  position: relative;
+}
+
+.search-input::placeholder {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  padding-left: 48px;
+}
+
+.search-button {
+  width: 160px;
+  height: 40px;
+  display: block;
+  cursor: pointer;
+  font-family: "Rubik" sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 0 20px 20px 0;
+  border: solid 2px;
+  border-color: #000000;
+  background-color: transparent;
+  padding: 0;
+}
+
+/** -----custom-menu------**/
+
+.custom-menu-button {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 40px;
+  width: 520px;
+  margin: 0;
+  /**margin-right: 60px;*/
+  padding: 0;
+}
+
+.custom-button-login {
+  width: 81px;
+  height: 30px;
+  list-style-type: none;
+  margin-left: 22px;
+  margin-top: 4px;
+  margin-right: 176px;
+
+}
+
+.custom-button {
+  width: 105px;
+  height: 30px;
+  margin-top: 4px;
+  margin-right: 36px;
+  list-style-type: none;
+}
+
+.custom-button:last-child {
+  margin-right: 0;
+}
+
+.custom-button-link {
+  text-decoration: none;
+  font-family: "Rubik" sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: right;
+  display: block;
+  color: #000000;
+}
+
+/**------extra-menu------**/
+
+.extra-menu {
+  height: 50px;
+  width: 1160px;
+}
+
+.extra-menu-button {
+  display: flex;
+  flex-wrap: wrap;
+}
